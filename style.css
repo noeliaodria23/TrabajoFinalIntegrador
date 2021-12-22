@@ -1,0 +1,117 @@
+body {
+    background-image: url(Imagen/ImagFondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0; 
+    width: 100%;
+    height: 600px;
+}
+
+header {
+    width:100%;
+    position:relative;
+    text-align:center;
+    height:160px;
+    padding-top:30px;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+}
+
+.nav a:hover {
+    color: #1f96e4;
+    text-decoration: underline;
+}
+
+.container {
+    justify-content: center;
+}
+
+h1 {
+    color: #ce04ce;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil_nom {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.perfil_nom {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    from {color: #ce04ce;}
+    to {color: #3b013b;}
+}
+
+.carousel{
+    padding: 50px;
+}
+
+h5 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form {
+    width:50%; 
+    margin: auto;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precio {
+    width:50%; 
+    border-radius: 10px;
+    border: black solid 3px;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+}
+
+.combo {
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    padding-top: 7px;
+    height: 50px;
+    border-radius: 15px;
+    border: black solid 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-bottom: 40px;
+}
